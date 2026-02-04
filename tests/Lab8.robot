@@ -13,5 +13,6 @@ Open Browser To Login Page
 	
 *** Test Cases ***
 TC01_Open_Website_Successfully
+    Open Browser To Login Page
     [Documentation]    ตรวจสอบว่าสามารถเปิดเว็บไซต์ได้สำเร็จ
     Title Should Be    College of Computing | Khon Kaen University
