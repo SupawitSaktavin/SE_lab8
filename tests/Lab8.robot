@@ -15,4 +15,7 @@ Open Browser To Login Page
 TC01_Open_Website_Successfully
     Open Browser To Login Page
     [Documentation]    ตรวจสอบว่าสามารถเปิดเว็บไซต์ได้สำเร็จ
-    Title Should Be    College of Computing | Khon Kaen University
+	${title}=    Get Title
+    Should Be Equal    ${title}    College of Computing
+    Wait Until Page Contains    วิทยาลัยการคอมพิวเตอร์ มหาวิทยาลัยขอนแก่น
+	Close Browser
