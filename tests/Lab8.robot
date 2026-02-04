@@ -10,3 +10,8 @@ Open Browser To Login Page
     
     Create Webdriver    Chrome    options=${chrome_options}
     Go To    https://computing.kku.ac.th
+	
+*** Test Cases ***
+TC01_Open_Website_Successfully
+    [Documentation]    ตรวจสอบว่าสามารถเปิดเว็บไซต์ได้สำเร็จ
+    Title Should Be    College of Computing | Khon Kaen University
